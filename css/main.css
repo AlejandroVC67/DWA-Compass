@@ -1,0 +1,111 @@
+/* line 1, ../sass/common/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Signika', sans-serif;
+  color: black;
+  list-style: none;
+  list-style-type: none;
+}
+
+/* line 1, ../sass/header/_header.scss */
+.header {
+  width: 100%;
+  height: 8vh;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+/* line 9, ../sass/header/_header.scss */
+.header__title {
+  color: white;
+  margin-left: 10px;
+}
+/* line 13, ../sass/header/_header.scss */
+.header__image {
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-image: url("../img/pokemon/pokeball.png");
+}
+
+/* line 1, ../sass/pokedex/_pokedex.scss */
+.pokedex {
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 1, ../sass/pokemon/_pokemon.scss */
+.pokemon {
+  width: 100%;
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background: linear-gradient(#ffa500d6, #ffb10038);
+}
+/* line 9, ../sass/pokemon/_pokemon.scss */
+.pokemon-image {
+  background: './img/pokemon/ninetales.png';
+  background-repeat: no-repeat;
+}
+/* line 13, ../sass/pokemon/_pokemon.scss */
+.pokemon__title {
+  margin-left: 10px;
+}
+/* line 15, ../sass/pokemon/_pokemon.scss */
+.pokemon__title-wrapper {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+}
+/* line 25, ../sass/pokemon/_pokemon.scss */
+.pokemon__title-image {
+  background: './img/pokemon/flame.png';
+}
+/* line 29, ../sass/pokemon/_pokemon.scss */
+.pokemon__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 33, ../sass/pokemon/_pokemon.scss */
+.pokemon__image-container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 75px;
+}
+/* line 40, ../sass/pokemon/_pokemon.scss */
+.pokemon__information {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* line 46, ../sass/pokemon/_pokemon.scss */
+.pokemon__information-list {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+/* line 52, ../sass/pokemon/_pokemon.scss */
+.pokemon__information-list-wrapper {
+  padding: 0 60px;
+}
+/* line 56, ../sass/pokemon/_pokemon.scss */
+.pokemon__information-item {
+  margin-bottom: 10px;
+}
