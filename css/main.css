@@ -28,18 +28,44 @@
 /* line 14, ../sass/footer/_footer.scss */
 .footer__options__first {
   grid-area: 1 / 2 / 4 / 4;
-}
-/* line 17, ../sass/footer/_footer.scss */
-.footer__options__second {
-  grid-area: 1 / 4 / 4 / 6;
+  transition: .3s ease-in-out;
+  background-image: url("../img/pokemon/1.png");
+  background-repeat: no-repeat;
+  transform: scale(1);
 }
 /* line 20, ../sass/footer/_footer.scss */
+.footer__options__first:hover {
+  transform: scale(1.2);
+}
+/* line 24, ../sass/footer/_footer.scss */
+.footer__options__second {
+  grid-area: 1 / 4 / 4 / 6;
+  background-image: url("../img/pokemon/2.png");
+  background-repeat: no-repeat;
+}
+/* line 28, ../sass/footer/_footer.scss */
+.footer__options__second:hover {
+  transform: scale(1.2);
+}
+/* line 32, ../sass/footer/_footer.scss */
 .footer__options__third {
   grid-area: 7 / 2 / 4 / 4;
+  background-image: url("../img/pokemon/3.png");
+  background-repeat: no-repeat;
 }
-/* line 23, ../sass/footer/_footer.scss */
+/* line 36, ../sass/footer/_footer.scss */
+.footer__options__third:hover {
+  transform: scale(1.2);
+}
+/* line 40, ../sass/footer/_footer.scss */
 .footer__options__fourth {
   grid-area: 7 / 4 / 4 / 6;
+  background-image: url("../img/pokemon/4.png");
+  background-repeat: no-repeat;
+}
+/* line 44, ../sass/footer/_footer.scss */
+.footer__options__fourth:hover {
+  transform: scale(1.2);
 }
 
 /* line 1, ../sass/header/_header.scss */

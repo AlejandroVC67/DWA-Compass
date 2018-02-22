@@ -13,15 +13,37 @@
 
         &__first{
             grid-area: 1 / 2 / 4 / 4;
+            transition: .3s ease-in-out;
+            background-image: url('../img/pokemon/1.png');
+            background-repeat: no-repeat;
+            transform: scale(1);
+            &:hover{
+                transform: scale(1.2);
+            }
         }
         &__second{
             grid-area: 1 / 4 / 4 / 6;
+            background-image: url('../img/pokemon/2.png');
+            background-repeat: no-repeat;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
         &__third{
             grid-area: 7 / 2 / 4 / 4;
+            background-image: url('../img/pokemon/3.png');
+            background-repeat: no-repeat;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
         &__fourth{
             grid-area: 7 / 4 / 4 / 6;
+            background-image: url('../img/pokemon/4.png');
+            background-repeat: no-repeat;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
     }
 }
