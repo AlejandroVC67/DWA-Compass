@@ -2128,13 +2128,7 @@
   width: 100%;
   height: 27vh;
 }
-@media (min-width: 1024px) {
-  /* line 1, ../sass/footer/_footer.scss */
-  .footer {
-    flex-direction: unset;
-  }
-}
-/* line 10, ../sass/footer/_footer.scss */
+/* line 7, ../sass/footer/_footer.scss */
 .footer__options__list {
   width: 100%;
   height: 100%;
@@ -2142,7 +2136,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-/* line 17, ../sass/footer/_footer.scss */
+/* line 14, ../sass/footer/_footer.scss */
 .footer__options__list__first {
   width: 100%;
   height: 100%;
@@ -2150,11 +2144,11 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 24, ../sass/footer/_footer.scss */
+/* line 21, ../sass/footer/_footer.scss */
 .footer__options__list__first:hover {
   filter: blur(0px);
 }
-/* line 28, ../sass/footer/_footer.scss */
+/* line 25, ../sass/footer/_footer.scss */
 .footer__options__list__second {
   width: 100%;
   height: 100%;
@@ -2162,11 +2156,11 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 35, ../sass/footer/_footer.scss */
+/* line 32, ../sass/footer/_footer.scss */
 .footer__options__list__second:hover {
   filter: blur(0px);
 }
-/* line 39, ../sass/footer/_footer.scss */
+/* line 36, ../sass/footer/_footer.scss */
 .footer__options__list__third {
   width: 100%;
   transition: .3s ease-in-out;
@@ -2174,11 +2168,11 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 46, ../sass/footer/_footer.scss */
+/* line 43, ../sass/footer/_footer.scss */
 .footer__options__list__third:hover {
   filter: blur(0px);
 }
-/* line 50, ../sass/footer/_footer.scss */
+/* line 47, ../sass/footer/_footer.scss */
 .footer__options__list__fourth {
   width: 100%;
   transition: .3s ease-in-out;
@@ -2186,7 +2180,7 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 57, ../sass/footer/_footer.scss */
+/* line 54, ../sass/footer/_footer.scss */
 .footer__options__list__fourth:hover {
   filter: blur(0px);
 }
@@ -2265,13 +2259,13 @@
   width: 18px;
   height: 16px;
 }
-/* line 38, ../sass/pokemon/_pokemon.scss */
+/* line 37, ../sass/pokemon/_pokemon.scss */
 .pokemon__image {
   background-repeat: no-repeat;
   width: 100px;
   height: 55px;
 }
-/* line 47, ../sass/pokemon/_pokemon.scss */
+/* line 42, ../sass/pokemon/_pokemon.scss */
 .pokemon__image-container {
   width: 65px;
   height: 70px;
@@ -2279,13 +2273,13 @@
   top: 75px;
 }
 @media (min-width: 1024px) {
-  /* line 47, ../sass/pokemon/_pokemon.scss */
+  /* line 42, ../sass/pokemon/_pokemon.scss */
   .pokemon__image-container {
     top: 40%;
     left: 20%;
   }
 }
-/* line 58, ../sass/pokemon/_pokemon.scss */
+/* line 53, ../sass/pokemon/_pokemon.scss */
 .pokemon__information {
   width: 100%;
   height: 100%;
@@ -2293,7 +2287,7 @@
   flex-direction: column;
   justify-content: center;
 }
-/* line 64, ../sass/pokemon/_pokemon.scss */
+/* line 59, ../sass/pokemon/_pokemon.scss */
 .pokemon__information-list {
   background-color: #f7f5de;
   display: flex;
@@ -2305,30 +2299,30 @@
   border: 4px solid #CF1B1B;
 }
 @media (min-width: 1024px) {
-  /* line 64, ../sass/pokemon/_pokemon.scss */
+  /* line 59, ../sass/pokemon/_pokemon.scss */
   .pokemon__information-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-/* line 77, ../sass/pokemon/_pokemon.scss */
+/* line 72, ../sass/pokemon/_pokemon.scss */
 .pokemon__information-list-wrapper {
   padding: 0 60px;
   height: 240px;
 }
 @media (min-width: 1024px) {
-  /* line 77, ../sass/pokemon/_pokemon.scss */
+  /* line 72, ../sass/pokemon/_pokemon.scss */
   .pokemon__information-list-wrapper {
     height: 80%;
   }
 }
-/* line 85, ../sass/pokemon/_pokemon.scss */
+/* line 80, ../sass/pokemon/_pokemon.scss */
 .pokemon__information-item {
   margin-bottom: 10px;
   display: flex;
 }
 @media (min-width: 1024px) {
-  /* line 85, ../sass/pokemon/_pokemon.scss */
+  /* line 80, ../sass/pokemon/_pokemon.scss */
   .pokemon__information-item {
     flex-direction: column;
     align-items: center;
