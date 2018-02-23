@@ -2134,9 +2134,9 @@
   height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 69px);
 }
-/* line 14, ../sass/footer/_footer.scss */
+/* line 13, ../sass/footer/_footer.scss */
 .footer__options__list__first {
   width: 100%;
   height: 100%;
@@ -2144,11 +2144,11 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 21, ../sass/footer/_footer.scss */
+/* line 20, ../sass/footer/_footer.scss */
 .footer__options__list__first:hover {
   filter: blur(0px);
 }
-/* line 25, ../sass/footer/_footer.scss */
+/* line 24, ../sass/footer/_footer.scss */
 .footer__options__list__second {
   width: 100%;
   height: 100%;
@@ -2156,11 +2156,11 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 32, ../sass/footer/_footer.scss */
+/* line 31, ../sass/footer/_footer.scss */
 .footer__options__list__second:hover {
   filter: blur(0px);
 }
-/* line 36, ../sass/footer/_footer.scss */
+/* line 35, ../sass/footer/_footer.scss */
 .footer__options__list__third {
   width: 100%;
   transition: .3s ease-in-out;
@@ -2168,11 +2168,11 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 43, ../sass/footer/_footer.scss */
+/* line 42, ../sass/footer/_footer.scss */
 .footer__options__list__third:hover {
   filter: blur(0px);
 }
-/* line 47, ../sass/footer/_footer.scss */
+/* line 46, ../sass/footer/_footer.scss */
 .footer__options__list__fourth {
   width: 100%;
   transition: .3s ease-in-out;
@@ -2180,7 +2180,7 @@
   background-position-x: 56%;
   filter: blur(2px);
 }
-/* line 54, ../sass/footer/_footer.scss */
+/* line 53, ../sass/footer/_footer.scss */
 .footer__options__list__fourth:hover {
   filter: blur(0px);
 }
